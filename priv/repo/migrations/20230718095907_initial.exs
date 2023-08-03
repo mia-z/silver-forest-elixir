@@ -23,6 +23,5 @@ defmodule SilverForest.Repo.Migrations.Initial do
 
             timestamps()
         end
-
     end
 end

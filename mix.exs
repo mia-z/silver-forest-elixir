@@ -26,7 +26,9 @@ defmodule SilverForest.MixProject do
             {:postgrex, "~> 0.15.13"},
             {:joken, "~> 2.5"},
             {:jason, "~> 1.3"},
-            {:bcrypt_elixir, "~> 3.0.1"}
+            {:bcrypt_elixir, "~> 3.0.1"},
+            {:enum_type, "~> 1.1.0"},
+            {:ex_json_schema, "~> 0.10.1"}
         ]
     end
 end

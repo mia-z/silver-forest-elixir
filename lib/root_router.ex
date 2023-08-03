@@ -4,7 +4,7 @@ defmodule SilverForest.RootRouter do
     plug :match
     plug :dispatch
 
-    forward "/forestry", to: Routes.ForestryRoute
+    forward "/forestry", to: Routes.ForestryRouter
     forward "/users", to: Routes.UsersRouter
 
     post "/create" do
